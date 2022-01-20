@@ -19,10 +19,9 @@
 #     print(lowercase)
 # lowercase()
 lowercase=input("Enter the string:-")
-a=[]
-a.append(lowercase)
+a=''
 vowel='aeiou'
-print(len(a))
+print(len(lowercase))
 print(len(vowel))
 i=0
 while i<len(lowercase):

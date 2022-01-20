@@ -1,11 +1,10 @@
 # Write a Python function that takes a list and returns a new list with 
-# yunique elements of the first list. Go to the editor
+# unique elements of the first list. Go to the editor
 # Sample List : [1,2,3,3,3,3,4,5]
 # Unique List : [1, 2, 3, 4, 5]
 
 
 def list(lists):
-    # lists=int(input("Enter list:"))
     i=0
     
     while i<len(lists):
@@ -17,4 +16,4 @@ def list(lists):
             j+=1
         i+=1
     print(lists)
-list([1,2,3,3,3,3,4,4,5,3,3,4,5])
+list([1,2,3,3,3,3,4,5])
