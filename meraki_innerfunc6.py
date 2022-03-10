@@ -12,7 +12,7 @@
 
 
 def check_speed(speed):
-    if speed<70:
+    if speed<=70:
         print("70")
     elif speed>70:
         i=71

@@ -1,27 +1,27 @@
 def sum(): 
-     print(12+13)
-sum()
+     a=12+13
+     return a
+print(sum())
 
 
 
-def welcome():
-    print("Welcome to function")
-welcome()
+# def welcome():
+#     print("Welcome to function")
+# welcome()
 
 
 
-def isEven():
-  if(12%2==0):
-    print("Even Number")
-  else:
-    print("Old Number")
-isEven()
+# def isEven():
+#   if(12%2==0):
+#     print("Even Number")
+#   else:
+#     print("Old Number")
+# isEven()
 
 
-def info(name, age = 12):
-       print(name + " is " + age + " years old")
+# def info(name, age = 12):
+#     print(name," is " ,age , " years old")
 
-info("Sonu")
-info("Sana", "17")
-info("Umesh", "18")
- 
+# info("Sonu")
+# info("Sana", "17")
+# info("Umesh", "18")

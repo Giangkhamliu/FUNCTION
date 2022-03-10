@@ -3,10 +3,8 @@
 # Sample List : [1,2,3,3,3,3,4,5]
 # Unique List : [1, 2, 3, 4, 5]
 
-
 def list(lists):
     i=0
-    
     while i<len(lists):
         j=i+1
         while j<len(lists):
