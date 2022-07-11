@@ -2,13 +2,13 @@
 # If your name starts with the letter "R" or lower case "r",
 #  you are playing banjo!
 
-def are_you_playing_banjo(name):
-    name1=list(name)
-    i=0
-    while i<len(name1):
-       if name1[0]=="R" or name1[0]=="r":
-           return name
-print(are_you_playing_banjo("race"))
+# def are_you_playing_banjo(name):
+#     name1=list(name)
+#     i=0
+#     while i<len(name1):
+#        if name1[0]=="R" or name1[0]=="r":
+#            return name
+# print(are_you_playing_banjo("race"))
 
 # name="Grace"
 # print(len(name))
@@ -50,10 +50,13 @@ print(are_you_playing_banjo("race"))
 #         i+=1 
 # stringy(6)
 
-def correct_tail(body, tail):
-    sub=body[-1]
-    if sub==tail:
-           return True
-    else:
-           return False
-print(correct_tail("Fox","x"))
+# def correct_tail(body, tail):
+#     sub=body[-1]
+#     if sub==tail:
+#            return True
+#     else:
+#            return False
+# print(correct_tail("Fox","x"))
+
+a="E3at m2e2!!"
+# "Eat me!!"
